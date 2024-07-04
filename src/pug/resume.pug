@@ -31,45 +31,15 @@ html(lang='en')
 
                     .col-lg-11.col-xl-9.col-xxl-8
 
-                        // Experience Section
-                        section
-                            .d-flex.align-items-center.justify-content-between.mb-4
-                                h2.text-primary.fw-bolder.mb-0 Experience
-                                // Download resume button
-                                // Note: Set the link href target to a PDF file within your project
-                                a.btn.btn-primary.px-4.py-3(href='#!')
-                                    .d-inline-block.bi.bi-download.me-2
-                                    | Download Resume
-
-                            // Experience Card 1
-                            .card.shadow.border-0.rounded-4.mb-5
-                                .card-body.p-5
-                                    .row.align-items-center.gx-5
-                                        .col.text-center.text-lg-start.mb-4.mb-lg-0
-                                            .bg-light.p-4.rounded-4
-                                                .text-primary.fw-bolder.mb-2 2019 - Present
-                                                .small.fw-bolder Web Developer
-                                                .small.text-muted Stark Industries
-                                                .small.text-muted Los Angeles, CA
-                                        .col-lg-8
-                                            div Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.
-
-                            // Experience Card 2
-                            .card.shadow.border-0.rounded-4.mb-5
-                                .card-body.p-5
-                                    .row.align-items-center.gx-5
-                                        .col.text-center.text-lg-start.mb-4.mb-lg-0
-                                            .bg-light.p-4.rounded-4
-                                                .text-primary.fw-bolder.mb-2 2017 - 2019
-                                                .small.fw-bolder SEM Specialist
-                                                .small.text-muted Wayne Enterprises
-                                                .small.text-muted Gotham City, NY
-                                        .col-lg-8
-                                            div Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.
-
                         // Education Section
                         section
-                            h2.text-secondary.fw-bolder.mb-4 Education
+                            .d-flex.align-items-center.justify-content-between.mb-4
+                                h2.text-secondary.fw-bolder.mb-4 Education
+                                // Download resume button
+                                // Note: Set the link href target to a PDF file within your project
+                                a.btn.btn-primary.px-4.py-3(href='./assets/resume-Jarvis-Hou.pdf' download)
+                                    .d-inline-block.bi.bi-download.me-2
+                                    | Download Resume
                             
                             // Education Card 1
                             .card.shadow.border-0.rounded-4.mb-5
@@ -77,34 +47,53 @@ html(lang='en')
                                      .row.align-items-center.gx-5
                                         .col.text-center.text-lg-start.mb-4.mb-lg-0
                                             .bg-light.p-4.rounded-4
-                                                .text-secondary.fw-bolder.mb-2 2015 - 2017
+                                                .text-secondary.fw-bolder.mb-2 2021 - present
                                                 .mb-2
-                                                    .small.fw-bolder Barnett College
-                                                    .small.text-muted Fairfield, NY
+                                                    .small.fw-bolder National Cheng Kung University
+                                                    .small.text-muted Tainan, Taiwan
                                                 .fst-italic
-                                                    .small.text-muted Master's
-                                                    .small.text-muted Web Development
+                                                    .small.text-muted Undergraduate
+                                                    .small.text-muted Computer Science
                                         .col-lg-8
-                                            div Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.
+                                            div
+                                                h6.fw-bold.mb-3 Awards
+                                                p Academic Excellence Award,NCKU 
+                                                .small.text-muted Fall 2021, Spring 2022
+                                                p
+                                                p Taiwan Baseball Data Analysis Competition 
+                                                .small.text-muted Finalist
+                                                p 
 
-                            // Education Card 2
+                                                
+                                                h6.fw-bold.mb-3 Required Courses
+                                                p Computer Project Design (A+)
+                                                p Compiler (A+)
+                                                p Algorithm (A)
+                                                
+                                                h6.fw-bold.mb-3 Selective Courses
+                                                p The Application of AI on Chinese Medicine (A+)
+                                                p Foundations of Spors Analytics: Data, Presentation, and Models in Sports (A+)
+                                                p Fundamentals and Applications of Generative AI (A+)
+                                                p Convolutional Neural Networks (A+)
+                                                
+                        // Divider
+                        .pb-5
+
+                        // Experience Section
+                        section
+                            h2.text-primary.fw-bolder.mb-0 Experience
+                            // Experience Card 1
                             .card.shadow.border-0.rounded-4.mb-5
                                 .card-body.p-5
                                     .row.align-items-center.gx-5
                                         .col.text-center.text-lg-start.mb-4.mb-lg-0
                                             .bg-light.p-4.rounded-4
-                                                .text-secondary.fw-bolder.mb-2 2011 - 2015
-                                                .mb-2
-                                                    .small.fw-bolder ULA
-                                                    .small.text-muted Los Angeles, CA
-                                                .fst-italic
-                                                    .small.text-muted Undergraduate
-                                                    .small.text-muted Computer Science
+                                                .text-primary.fw-bolder.mb-2 2021 - Present
+                                                .small.fw-bolder Program Assistant
+                                                .small.text-muted Ministry of Education
+                                                .small.text-muted Tainan, Taiwan
                                         .col-lg-8
-                                            div Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.
-
-                        // Divider
-                        .pb-5
+                                            div Assist Professor Yi-Chien Peng with the application of motion capture and analysis technology in Prospective Display of Technology and Cross-disciplinary Campus Demonstration Field Project
 
                         // Skills Section
                         section
@@ -120,18 +109,9 @@ html(lang='en')
                                                 span.text-gradient.d-inline Professional Skills
                                         .row.row-cols-1.row-cols-md-3.mb-4
                                             .col.mb-4.mb-md-0
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 SEO/SEM Marketing
+                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Deep Learning Algorithm
                                             .col.mb-4.mb-md-0
                                                 .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Statistical Analysis
-                                            .col
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Web Development
-                                        .row.row-cols-1.row-cols-md-3
-                                            .col.mb-4.mb-md-0
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Network Security
-                                            .col.mb-4.mb-md-0
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Adobe Software Suite
-                                            .col
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 User Interface Design
                                     // Languages list
                                     .mb-0
                                         .d-flex.align-items-center.mb-4
@@ -139,20 +119,15 @@ html(lang='en')
                                                 i.bi.bi-code-slash
                                             h3.fw-bolder.mb-0
                                                 span.text-gradient.d-inline Languages
-                                        .row.row-cols-1.row-cols-md-3.mb-4
-                                            .col.mb-4.mb-md-0
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 HTML
-                                            .col.mb-4.mb-md-0
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 CSS
-                                            .col
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 JavaScript
+                                        
+
                                         .row.row-cols-1.row-cols-md-3
                                             .col.mb-4.mb-md-0
                                                 .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Python
                                             .col.mb-4.mb-md-0
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Ruby
+                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 C
                                             .col
-                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 Node.js
+                                                .d-flex.align-items-center.bg-light.rounded-4.p-3.h-100 C++
 
         // Footer
         include includes/footer.pug
